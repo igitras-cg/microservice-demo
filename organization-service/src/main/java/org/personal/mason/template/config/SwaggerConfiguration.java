@@ -18,7 +18,7 @@ public class SwaggerConfiguration {
     public Docket swaggerPersonApi10() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage(OrganizationServiceApplication.class.getPackageName()))
+                .apis(RequestHandlerSelectors.basePackage(OrganizationServiceApplication.class.getPackage().getName()))
                 .paths(PathSelectors.any())
                 .build()
                 .apiInfo(new ApiInfoBuilder().version("1.0").title("Organization API").description("Documentation Organization API v1.0").build());

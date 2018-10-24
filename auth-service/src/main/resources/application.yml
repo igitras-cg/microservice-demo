@@ -1,0 +1,7 @@
+
+app:
+  oauth:
+    jks:
+      store-pass: ms-demo
+      store-file-name: ms-demo.jks
+      key-pair-alias: ms-demo

@@ -39,3 +39,8 @@ spring:
         filters:
         - SwaggerHeaderFilter
         - StripPrefix=1
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

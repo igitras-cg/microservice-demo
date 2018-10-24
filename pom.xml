@@ -25,6 +25,7 @@
         <module>gateway-service</module>
         <module>auth-service</module>
         <module>common</module>
+        <module>admin</module>
     </modules>
 
     <dependencies>
